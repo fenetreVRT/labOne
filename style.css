@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,700");
+
+/* General styling */
+
 * {
   margin: 0;
+}
+
+body {
+  background-color: #e9fafd;
 }
 
 header {
@@ -7,14 +16,31 @@ header {
 }
 
 .navbar {
-  background-color: red;
+  background-color: #88e28e;
   display: flex;
   justify-content: space-between;
   padding: 2rem 4rem;
 }
 
+footer {
+  background-color: #090909;
+}
+
+h1 {
+  color: #090909;
+  font-family: "Barlow", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+p {
+  color: #090909;
+  font-family: "Inter", sans-serif;
+}
+
 a {
   padding-inline: 2rem;
+  text-decoration: none;
 }
 
 a:active {
@@ -24,3 +50,46 @@ a:active {
 a:hover {
   color: yellow;
 }
+
+/* ----------------------------- */
+/* ------The home section------- */
+/* ----------------------------- */
+
+.home-container {
+  background-color: #88e28e;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 1fr, auto, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  padding: 5rem;
+  margin: 10rem;
+}
+
+.home-content {
+  position: relative;
+}
+
+.decoration {
+  min-height: 10vh;
+}
+
+.color-square {
+  position: absolute;
+  z-index: 1;
+  top: 60%;
+  left: 80%;
+  padding: 5rem;
+  background-color: #e6b65c;
+}
+
+/* ----------------------------- */
+/* ------The about section------ */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* -----The gallery section----- */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* -----The contact section----- */
+/* ----------------------------- */
